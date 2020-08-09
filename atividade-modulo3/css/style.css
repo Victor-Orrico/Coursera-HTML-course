@@ -17,20 +17,17 @@ h1{
 }
 .navbar-header button.navbar-toggle, .navbar-header .icon-bar {
     border: 1px solid #FDD66D;
-  }
-  #nav-list {
+}
+#nav-list {
     margin-top: 10px;
-  }
-  #nav-list a{
+}
+#nav-list a{
     color: #FDD66D;
     text-align: center;
-  }
-  #nav-list a:hover {
+}
+#nav-list a:hover {
     background: #E7E7E7;
-  }
-article { 
-    font-size: 1.5em;
-    padding: 5px 0 15px;}
+}
 p {
     padding-left: 5px;
     padding-right: 5px;
@@ -38,7 +35,14 @@ p {
 #chicken, #beef, #sushi { 
     background-color: rgb(45, 0, 128);
     color: #FDD66D;
-    padding: 10px;
+    border: 2px solid black;
+    position: relative;
+    height: 1000px;
+    padding: 3px;
     margin-bottom: 10px;
-    height: 500px;
+}
+a.back{
+    position: absolute;
+    right: 0;
+    bottom: 0;
 }
